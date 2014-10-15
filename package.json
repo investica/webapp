@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/investica/webapp/issues"
   },
-  "homepage": "https://github.com/investica/webapp"
+  "homepage": "https://github.com/investica/webapp",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.9.7"
+  }
 }
