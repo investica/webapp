@@ -1,0 +1,19 @@
+{
+  "name": "investica",
+  "version": "1.0.0",
+  "description": "Team Investica's amazing web application !!!!!!!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/investica/webapp.git"
+  },
+  "author": "Clayton, Aaryn, Dustin, Sarah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/investica/webapp/issues"
+  },
+  "homepage": "https://github.com/investica/webapp"
+}
