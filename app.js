@@ -1,10 +1,21 @@
 var express = require("express");
 var app = express();
 
-app.get("/", function(req, res) {
-    //res.render("default.html");
-    res.send("~~ Invest! ~~");
+
+var router = require('./routes');
+
+//sets the contents in public to be static and always accessible. That way we can access .css files, etc.
+app.use(express.static(__dirname + '/public'));
+
+//sets the view engine to ejs !!
+app.set('view engine', 'ejs');
+
+//middleware function for router
+app.use(function(req,res,next){
+    next();
 });
+
+app.use('/',router);
 
 var server = app.listen(3000, function() {
     console.log("Listening on port 3000");
