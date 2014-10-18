@@ -9,6 +9,7 @@ app.use(express.static(__dirname + '/public'));
 
 //sets the view engine to ejs !!
 app.set('view engine', 'ejs');
+app.engine('.html', require('ejs').renderFile);
 
 //middleware function for router
 app.use(function(req,res,next){

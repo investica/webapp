@@ -18,6 +18,7 @@
   "homepage": "https://github.com/investica/webapp",
   "dependencies": {
     "ejs": "^1.0.0",
-    "express": "^4.9.7"
+    "express": "^4.9.7",
+    "html": "0.0.7"
   }
 }
