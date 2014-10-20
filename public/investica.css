@@ -1,5 +1,5 @@
-/* main.css by Clayton Kucera
-  v 1.0 - 2012-05-20
+/* investica.css by Clayton Kucera
+  v 1.2 - 2014
 */
 
 /* reset margins */
@@ -15,13 +15,43 @@ footer, header, hgroup, menu, nav, output, section, summary, audio, video {
     vertical-align: baseline;
 }
 
+/* Clayton's Investica Palette
+
+    darkgreen   :   #6E8531     //for header text and titles
+    lightgreen  :   #A0E142
+    pastelgold  :   #E9DA6F
+    lightgreen  :   #95E56F
+    tan         :   #FDEDB1
+    lightgreen  :   #EEFFD3     //for the background
+
+ Other random colors
+ 
+  darkgreen      : #819090;
+  gray           : #708284;
+  mediumgray     : #536870;
+  darkgray       : #475B62;
+  darkblue       : #0A2933;
+  darkerblue     : #042029;
+  paleryellow    : #FCF4DC;
+  paleyellow     : #EAE3CB;
+  yellow         : #A57706;
+  orange         : #BD3613;
+  red            : #D11C24;
+  pink           : #C61C6F;
+  purple         : #595AB7;
+  blue           : #2176C7;
+  cyan           : #259286;
+  green          : #738A05; */
+
 /* setup body */
 body, p {
     line-height: 1;
     font-family: Georgia, serif;
     font-size: 16pt;
     margin:0 100px;
-}
+  background: #EEFFD3;
+    color: #475B62;
+  }
 
 /* reasonable starting margins */
 p, h1, h2, h3, h4, h5, h6, ol, ul, li { margin: 12pt; }
@@ -30,10 +60,12 @@ li { margin-left: 5em;}
 /* setup headings */
 h1, h2, h3, h4, h5, h6 {
     line-height: 1;
-    /*font-family: Tahoma, Verdana, sans-serif;*/
-	font-family:georgia, 'bitstream vera sans serif', 'lucida grande',
-		helvetica, verdana, sans-serif;
-    font-weight: normal;
+  font-family: 'Roboto Slab', "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  color: #6E8531;
+  font-size: 1.75em;
+  margin-bottom: .4em;
+    color: 6E8531;
 }
 
 h1 {
