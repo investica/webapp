@@ -17,4 +17,8 @@ router.get("/example", function(req, res) {
     res.render("example.html", {});
 });
 
+router.get("/chart", function(req, res) {
+    res.render("chart.html", {});
+});
+
 module.exports = router;
