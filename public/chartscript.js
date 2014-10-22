@@ -218,6 +218,7 @@ function redraw(){
   items.call(dataset);
 }
 function assignPlaceHolders() {
+    
     document.getElementById("monthly").placeholder = monthly;
     document.getElementById("init").placeholder = init;
     document.getElementById("years").placeholder = years;
