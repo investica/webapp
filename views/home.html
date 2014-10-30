@@ -1,18 +1,43 @@
-<!-- Get to work Aaryn! -->
-
-<!-- To test this page from our localhost port, add '/info' to the address. -->
-
 <!DOCTYPE html>
 <html lang = 'en'>
 <head>
     <meta charset = "UTF-8">
     <title>Investica</title>
     <link rel="stylesheet" href="investica.css">
+
 </head>
 <body>
-    <h1> You've reached the homepage. Nice work! </h1>
-        <div id="chart"></div>
-        
-    <script src="d3.min.js"></script>
-    <script src="chartscript.js"></script>
+	<div id="main">
+		<div id="header">
+			<img id="logo" src="logo.png" height="130" width="130">
+			<h1 id="title"> Investica </h1>
+		<div>
+		
+		<div id="content">
+			<div id="nav">
+			   <ul>
+				  <li><a href="home.html" class="active">Home</a></li>
+				  <li><a href="lessons.html">Lessons</a></li>
+				  <li><a href="quizzes.html">Quizzes</a></li>
+				  <li><a href="highScores.html">High Scores</a></li>
+			   </ul>
+			</div>
+				<div id="chartDiv">
+				</div>
+				<div id="homeInfo">
+					</br>
+					<p>
+						Early adulthood can be tough - we've all been there. One of the toughest things to figure out about being an adult is the finance side: what should I be doing with my money, now that I have an income?
+					</p>
+					</br>
+					<p>
+						Here at Team Investica, we aim to answer this big, often ugly question. We're here to give you all of the resources you need to make correct, responsible investing choices.
+					</p>
+					
+					<img id="arrow" src="arrow455.svg"/>
+				</div>
+		</div>
+	<div>
+	<script src="d3.min.js"></script>
+	<script src="chartscript2.js"></script>
 </body>
