@@ -21,4 +21,22 @@ router.get("/chart", function(req, res) {
     res.render("chart.html", {});
 });
 
+router.get("/lessons", function(req, res) {
+    res.render("lessons.html", {});
+});
+
+router.get("/quizzes", function(req, res) {
+    res.render("quizzes.html", {});
+});
+
+router.get("/highScores", function(req, res) {
+    res.render("highScores.html", {});
+});
+
+router.get("/lesson1", function(req, res) {
+    res.render("lesson1.html", {});
+});
+
+
+
 module.exports = router;
