@@ -1,0 +1,122 @@
+/* main.css by Clayton Kucera
+  v 1.0 - 2012-05-20
+*/
+
+/* reset margins */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li,
+blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, section, summary, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* setup body */
+body, p {
+    line-height: 1;
+    font-family: Georgia, serif;
+    font-size: 16pt;
+    margin:0 100px;
+}
+
+/* reasonable starting margins */
+p, h1, h2, h3, h4, h5, h6, ol, ul, li { margin: 12pt; }
+li { margin-left: 5em;}
+
+/* setup headings */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    /*font-family: Tahoma, Verdana, sans-serif;*/
+	font-family:georgia, 'bitstream vera sans serif', 'lucida grande',
+		helvetica, verdana, sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+	margin:90px 0;
+	line-height:1;
+	font-size:100px;
+	color:#000;
+
+
+	text-shadow:-2px 0 0 rgba(0, 0, 0, 0.5);
+	letter-spacing:-3px; 
+    position:relative;}
+h2 { font-size: 180%; }
+h3 { font-size: 160%; }
+h4 { font-size: 140%; }
+h5 { font-size: 120%; }
+h6 { font-size: 100%; }
+
+/* setup pre */
+pre { font-family: consolas, monospace; }
+
+/*setup the navigation items*/
+
+nav#top-menu {
+    width: 300px;
+    height: 33px;
+
+    margin: 0 auto;
+    padding: 0;
+
+}
+#top-menu ul {
+    display: block;
+    list-style-type: none;
+    width: 300px;
+    margin: 0; 
+    padding: 0;
+
+}
+#top-menu ul li {
+    margin: 0;
+    padding: 0;
+
+}
+#top-menu ul li a {
+    display: block;
+    float: left;
+    max-height: 25px;
+    width: 100px;
+    margin: 0;
+    padding: 5px 0;
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: #000000 solid 2px;
+}
+#top-menu ul li a:hover { border-bottom: #FEFCFF solid 2px; }
+#container {
+	max-width:900px;
+	margin:0 auto;
+}
+#me {
+	float:left;
+	border:2px solid rgba(0, 0, 0, 0.3);
+	border-radius:2px;
+	box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
+	margin:-2px 30px 25px 0;
+}
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th {
+    font-weight:bold;
+}
+footer p {
+    font-size: 70%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
