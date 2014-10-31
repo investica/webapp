@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset = "UTF-8">
+    <title>Investica</title>
+    <link rel="stylesheet" href="investica.css">
+
+</head>
+<body>
+	<div id="main">
+		<div id="header">
+			<img id="logo" src="/images/logo.png" height="130" width="130">
+			<h1 id="title"> Investica </h1>
+		<div>
+		
+		<div id="content">
+			<div id="nav">
+			   <ul>
+				  <li><a href="/">Home</a></li>
+				  <li><a href="guide">Investment Guide</a></li>
+				  <li><a href="lessons">Lessons</a></li>
+				  <li><a href="simulation" class="active">Simulation</a></li>
+				  <li><a href="quizzes">Quizzes</a></li>
+			   </ul>
+			</div>
+              <div class="container">
+                <h2>Compound Interest Chart</h2>
+                <div id="chart"></div>
+                <form> 
+                Monthly Addition: <input type="text" id="monthly"><br>
+                Initial Deposit: <input type="text" id="init"><br>
+                Years Invested: <input type="text" id="years"><br>
+                <input type="button" value="Update" id="updateButton"/><br>
+                </form>
+              </div>
+
+		</div>
+	<div>
+    <script src="d3.min.js"></script>
+    <script src="chartscript.js"></script>
+</body>

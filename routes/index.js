@@ -37,6 +37,11 @@ router.get("/lesson1", function(req, res) {
     res.render("lesson1.html", {});
 });
 
+router.get("/simulation", function(req, res) {
+    res.render("simulation.html", {});
+});
 
-
+router.get("/guide", function(req, res) {
+    res.render("guide.html", {});
+});
 module.exports = router;
