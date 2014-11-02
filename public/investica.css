@@ -251,7 +251,12 @@ th {
 	padding: 5px;
 	background: white;
     display: inline-block;
+    margin-top: 50px;
+}
+
+#input {
     margin-top: 100px;
+    margin-left: 15px;
 }
 
 p {
