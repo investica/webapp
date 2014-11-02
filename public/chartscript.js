@@ -11,9 +11,9 @@ var addition = 0;
 var balance = init;
 
 //spacing and sizing
-var margin = { top: 30, right: 30, bottom: 100, left:150 } //the margins of the chart
-var height = 400,
-    width = 600,
+var margin = { top: 10, right: 30, bottom: 100, left:150 } //the margins of the chart
+var height = 340,
+    width = 400,
     barWidth = 50,
     barOffset = 5;
 
