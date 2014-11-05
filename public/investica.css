@@ -357,6 +357,7 @@ footer p {
 
 #quizSelectList {
 	margin: 30px;
+	margin-left: 300px;
 	float: left;
 	width: 250px;
 	height: 300px;
@@ -386,6 +387,7 @@ footer p {
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   width: 115px;
+  height: 30px;
 }
 
 .btn:hover {
@@ -410,8 +412,12 @@ footer p {
 }
 
 #quizInfo {
-	margin-top: 70px;
+	margin-top: 100px;
 	text-align: center;
+}
+
+#nextButton {
+	margin-left: 300px;
 }
 
 
