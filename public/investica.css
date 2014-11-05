@@ -406,6 +406,7 @@ footer p {
     padding: 5px;
     width: 200px;
     float: left;
+	cursor: pointer; 
 }
 
 .grayed {
@@ -419,6 +420,7 @@ footer p {
 
 #nextButton {
 	margin-left: 300px;
+	cursor: pointer; 
 }
 
 #quizContent {
