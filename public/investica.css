@@ -294,20 +294,29 @@ a {
 #lessonsDiv ul li{
 	margin-left: 3em;	
 	padding-bottom: 4px;
+	margin-left: 50px;
 }
 
 #lessonsDiv ul li a{
 	color: #D3D3D3;
+	padding-left: 8px;
 }
 
 #lessonsDiv li a:active{
 	color: #175E8E;
 }
 
+#active-lesson li a{
+	color: white!important;	
+	background-color: #c2db9b;
+	padding-right: 8px;
+	border-radius:0px;
+}
+/*
 #lessonsDiv ul li a:visited{
 	color: #738A05;
 	background-color:#6E8531;
-}
+}*/
 
 #lessonheader{
 	margin: 10px;
@@ -322,33 +331,16 @@ a {
 	width: 55%;
 	height: 385px;
 	overflow-y: scroll;
-	overflow-x: hidden;}
-	
-#lessonsContent{
-	margin: 10px;
-	float: left;
-	margin-top: 80px;
-	width: 55%;
-	height: 385px;
-	overflow-y: scroll;
 	overflow-x: hidden;
 	}
 #lessonsContent::-webkit-scrollbar-thumb:vertical {
-	height:10px; 
-	border:2px solid #ffffff; 
-	background-color:#D3D3D3;
-}
+height:10px; border:2px solid #ffffff; background-color:#D3D3D3;}
  
 #lessonsContent::-webkit-scrollbar-thumb:horizontal {
-	background-color:#ffffff;
-}
+background-color:#ffffff;}
  
 #lessonsContent::-webkit-scrollbar {
-	width:11px; 
-	height:5px; 
-	border:5px solid #ffffff; 
-	background-color:#ffffff;
-}
+width:11px; height:5px; border:5px solid #ffffff; background-color:#ffffff;}
 
 
 
@@ -356,6 +348,15 @@ a {
 	line-height:30px;
 	margin-top: 0px;
 }
+
+
+#arrow-image{
+	margin: 10px;
+	margin-top: 30px;
+	float: left;
+}
+/*end lessons css*/
+
 
 
 #arrow-image{
