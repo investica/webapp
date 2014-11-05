@@ -299,7 +299,10 @@ a {
 
 #lessonsDiv ul li a{
 	color: #D3D3D3;
+	padding-top:5px;
+	padding-bottom:5px;
 	padding-left: 8px;
+	
 }
 
 #lessonsDiv li a:active{
@@ -309,7 +312,7 @@ a {
 #active-lesson li a{
 	color: white!important;	
 	background-color: #c2db9b;
-	padding-right: 8px;
+	padding-right: 60px;
 	border-radius:0px;
 }
 /*
