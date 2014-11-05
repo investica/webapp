@@ -8,6 +8,7 @@
 
 </head>
 <body>
+    <script src="accounts.js"></script>
 	<div id="main">
 		<div id="header">
 			<img id="logo" src="/images/logo.png" height="130" width="130">
@@ -34,11 +35,14 @@
                 At what age would you like to start drawing from your account?
                 <input type="number" name="end"></br>
                 
-                <input type="number" name="end"><br>
-                
-                <button type="submit">Find me some options!</button>
+                <input type="button" value="Find me some options!" onclick="showOption();">
 
             </form>
+            <div id="homeInfo">
+                <div id="option" style="visibility:hidden">
+                <a href="https://personal.vanguard.com/us/funds/snapshot?FundId=0023&FundIntExt=INT">Vanguard US Growth Fund</a>
+                </div>
+            </div>
 		</div>
 	<div>
     <footer align="center">
@@ -46,5 +50,6 @@
             Copyright &copy; 2014 by Team Investica
         </p>
     </footer>
+
 
 </body>
