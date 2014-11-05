@@ -40,4 +40,20 @@ function nextQuestion(){
 		
 		currentNumber++;
 	}
+	else{
+		$('#questionNumber').text("Quiz Complete! You scored 500!");
+		
+		$('#questionText').remove();
+		$('#answer1Text').remove();
+		$('#answer2Text').remove();
+		$('#answer3Text').remove();
+		$('#answer4Text').remove();
+		$('#answers').remove();
+		
+		$("#nextButton").bind("click", returnToMain);
+	}
+}
+
+function returnToMain(){
+	location.href="quizzes";
 }

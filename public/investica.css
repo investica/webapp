@@ -401,6 +401,7 @@ footer p {
 }
 
 .quiz_item {
+	background: #c2db9b;
     margin: 1px;
     padding: 5px;
     width: 200px;
@@ -420,6 +421,19 @@ footer p {
 	margin-left: 300px;
 }
 
+#quizContent {
+	margin-top: 70px;
+	text-align: center;
+}
 
+ul
+{
+list-style-type: none;
+}
+
+#answers{
+	text-align: left;
+	margin-left: 200px;
+}
 
 
