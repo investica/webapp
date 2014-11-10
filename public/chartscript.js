@@ -3,7 +3,7 @@
 
 var years = 40;     //number of years investing
 var init = 1000;    //amount of money initially invested
-var growth = 0.1;   //amount of yearly growth
+var growth = 0.08;   //amount of yearly growth
 var monthly = 500;  //amount of payment each month
 var interest = 0; //the interest being returned
 var dataset = [];   //this will display the money each year.
