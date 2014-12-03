@@ -387,7 +387,7 @@ footer p {
 	margin: 30px;
 	margin-left: 300px;
 	float: left;
-	width: 250px;
+	width: 275px;
 	height: 300px;
 	overflow-y: auto;
 }
@@ -432,7 +432,7 @@ footer p {
 	background: #c2db9b;
     margin: 1px;
     padding: 5px;
-    width: 200px;
+    width: 245px;
     float: left;
 	cursor: pointer; 
 }
