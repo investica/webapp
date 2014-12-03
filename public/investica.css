@@ -278,6 +278,15 @@ a {
 	text-shadow:-1px 0 0 rgba(0, 0, 0, 0.1);
 }
 
+a.account {
+    text-decoration: underline;
+    font-family: Georgia, serif;
+    font-size: 16pt;
+    color: green;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-shadow:-1px 0 0 rgba(0, 0, 0, 0.1);
+}
 
 /*lessons css*/
 #lessonsDiv{
