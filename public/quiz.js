@@ -19,6 +19,7 @@ var answers =[
 ["IPO's","Roth IRA CDs","Penny stocks","Venture capital"],
 ["It is low risk","Very low return","Easily accessible money","No penalties when withdrawing money"]
 ];
+var highScore = 0;
 
 
 // Function for when page first loads, what you want it to do
@@ -45,7 +46,8 @@ function nextQuestion(){
 			ele[i].checked = false;
 	}
 	else{
-		$('#questionNumber').text("Quiz Complete! You scored 80/100!");
+		highScore = 80;
+		$('#questionNumber').text("Quiz Complete! You scored "+ highScore +"/100!");
 		
 		$('#questionText').remove();
 		$('#answer1Text').remove();
@@ -59,5 +61,5 @@ function nextQuestion(){
 }
 
 function returnToMain(){
-	location.href="quizzes";
+	location.href="quizzes"+'?param=' + highScore;
 }

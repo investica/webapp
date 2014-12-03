@@ -439,6 +439,7 @@ footer p {
 
 .grayed {
 	background: #bbbbbb;
+	cursor: default;
 }
 
 #quizInfo {

@@ -61,4 +61,28 @@
             Copyright &copy; 2014 by Team Investica
         </p>
     </footer>
+	
+	<script src="jquery.js"></script>
+	<script>
+		var highScore = getUrlParameter('param');
+		if(typeof(highScore) != "undefined"){
+			$("#highScores").text("Your High Score: " + highScore);
+		}
+		else{
+			$("#highScores").text("Your High Score: ---");
+		}
+		
+		function getUrlParameter(sParam){
+			var sPageURL = window.location.search.substring(1);
+			var sURLVariables = sPageURL.split('&');
+			for (var i = 0; i < sURLVariables.length; i++) 
+			{
+				var sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] == sParam) 
+				{
+					return sParameterName[1];
+				}
+			}
+		}
+	</script>
 </body>
