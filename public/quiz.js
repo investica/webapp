@@ -39,9 +39,13 @@ function nextQuestion(){
 		$('#answer4Text').text(answers[currentNumber][3]);
 		
 		currentNumber++;
+		
+		var ele = document.getElementsByName("answer");
+		for(var i=0;i<ele.length;i++)
+			ele[i].checked = false;
 	}
 	else{
-		$('#questionNumber').text("Quiz Complete! You scored 500!");
+		$('#questionNumber').text("Quiz Complete! You scored 80/100!");
 		
 		$('#questionText').remove();
 		$('#answer1Text').remove();
